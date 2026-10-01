@@ -1,0 +1,79 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>canvas</title>
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #5e5d5d;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    .search-box {
+      width: 90%;
+      max-width: 650px;
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      gap: 10px;
+    }
+
+    input {
+      flex: 1;
+      padding: 16px;
+      border: 1px solid #444;
+      border-radius: 10px;
+      background: #222;
+      color: white;
+      font-size: 17px;
+      outline: none;
+    }
+
+    button {
+      padding: 16px 24px;
+      border: none;
+      border-radius: 10px;
+      background: #000000;
+      color: white;
+      font-size: 17px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.85;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="search-box">
+    <h1>gust is brave 🖤</h1>
+
+    <form action="https://fern.best/search?query=dGlrdG9r" method="GET">
+      <input
+        type="text"
+        name="q"
+        placeholder="Search on gust"
+        autocomplete="off"
+        required
+      >
+
+      <button type="submit">GO</button>
+    </form>
+  </div>
+
+</body>
+</html>
+
